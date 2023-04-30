@@ -53,7 +53,7 @@ body {
 }
 
 .profession::after {
-  content: "🕺";
+  content: "";
 }
 
 .hire-me {
