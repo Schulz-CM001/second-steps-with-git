@@ -1,0 +1,26 @@
+*,
+*:before,
+*::after{
+    box-sizing:border-box;
+}
+*{
+    font-family: "Verdana", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Oswald", sans-serif;
+}
+body {
+    margin: 8;
+}
+.header {
+    padding:48px 16px;
+text-align: center;
+background-color: #eee
+
+}
+
+.main{
+    max-width: 800px
+    margin: 0 auto;
+    padding: 16 px
+}
