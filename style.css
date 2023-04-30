@@ -1,3 +1,6 @@
+**************************************************************/
+/* General Stylings */
+
 *,
 *:before,
 *:after {
@@ -6,6 +9,7 @@
 
 html {
   font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 h1,
@@ -29,17 +33,41 @@ body {
 /* Specific Stylings */
 
 .header {
-  padding: 48px 16px;
+  padding: 3rem 1rem;
+  padding-top: 4.5rem;
   text-align: center;
   background-color: #eee;
+  position: relative;
+}
+
+.heading-group {
+  font-size: 4rem;
+}
+
+.main-heading {
+  font-size: 1em;
+}
+
+.profession {
+  font-size: 0.25em;
 }
 
 .profession::after {
   content: "🕺";
 }
 
+.hire-me {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  background: plum;
+  color: black;
+}
+
 .nav-link {
-  padding: 4px 8px;
+  padding: 0.25rem 0.5rem;
   color: black;
 }
 
@@ -54,25 +82,31 @@ body {
 }
 
 .nav-link + .nav-link {
-  margin-left: 16px;
+  margin-left: 1rem;
 }
 
 .main {
-  max-width: 800px;
+  max-width: 60ch;
   margin: 0 auto;
-  padding: 16px;
+  padding: 1rem;
 }
 
 .main > * + * {
-  margin-top: 48px;
+  margin-top: 3rem;
 }
 
 .main > * {
-  border-top: 2px solid grey;
+  border-top: 0.125rem solid grey;
+  padding: 0 1rem;
 }
 
 .main > *:first-child {
   border-top: none;
+}
+
+.article-heading {
+  position: relative;
+  left: -1rem;
 }
 
 .experience-heading {
